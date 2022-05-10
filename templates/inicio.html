@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}Inicio{% endblock %}
+{% block content %}
+
+	<!-- Banner -->
+	<div class="container-fluid">
+		<div id="wrapper">
+			<hr>
+			<div class="row">
+				<div class="col col-12 col-md-6 col-xl-4">
+                </div>
+					<div class="col col-12 col-md-6 col-xl-8 text-center text-md-left">
+						<h2 class="mt-5 mb-1">MSX</h2>
+						<h3 class="mb-3">Inicio</h3>
+					</div>
+				</div>
+				<hr>
+			</div>
+			<a href="/juegos"><img src="{{ url_for('static',filename='static/images/msx.jpg') }}"></a>
+		</div>
+{% endblock %}
